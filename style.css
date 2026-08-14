@@ -5,37 +5,47 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    /* Fundo azul marinho escuro na página toda */
+    background-color: #0b1d3a;
+    /* Letras em branco para dar contraste */
+    color: #ffffff;
     padding: 20px;
 }
 
 .cabecalho {
     padding: 15px 25px;
-    background-color: #0056b3;
-    color: white;
+    /* Azul marinho um pouco mais claro para destacar o cabeçalho */
+    background-color: #162c52;
+    color: #ffffff;
     margin-bottom: 20px;
     border-radius: 8px;
+    border: 1px solid #234175;
 }
 
-/* Estrutura usando as medidas do professor */
+/* Estrutura dos cartões com as medidas do professor */
 .cartao {
     width: 260px;
-    background-color: white;
+    /* Fundo do cartão em azul marinho intermediário */
+    background-color: #132748;
     padding: 15px;
     margin: 10px auto;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid #234175;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .cartao h2 {
     font-size: 1.1rem;
     margin-bottom: 10px;
-    color: #0056b3;
+    /* Títulos dentro dos cartões em branco puro */
+    color: #ffffff;
 }
 
 .cartao p {
     font-size: 0.9rem;
     line-height: 1.3;
+    /* Texto levemente suavizado para não cansar a vista */
+    color: #e0e6ed;
 }
 
 /* Imagens e vídeos ajustados para o cartão */
